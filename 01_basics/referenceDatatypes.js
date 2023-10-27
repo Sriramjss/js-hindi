@@ -4,15 +4,15 @@
 const score = 100
 const scorevalue = 100.5
 const loggin = true 
-const temp = null
-let user = undefined
+const temp = null             // data type is object
+let user = undefined           //    undef
 
 const id = Symbol('22')
 const idd = Symbol('22')
 
 console.log(id === idd);
 
-const nigNum = 3737473842848432342n
+const nigNum = 3737473842848432342n            // bigint
 
 
 // array , objects , functions       // these all are call by reference   // its dattype is called functoin
