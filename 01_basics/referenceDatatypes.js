@@ -29,3 +29,24 @@ const myFunction = function() {
 }
 
 console.log(typeof heros);
+
+
+
+
+////////   MEMORY TYPES 
+///////    STACK(PRIMITIVE) HEAP(NON PRIMITIVE)
+
+let myYoutube = "rammmmm.com"
+let anotherName = myYoutube
+anotherName = "myself"       /// its stack here
+console.log(myYoutube);
+console.log(anotherName);
+
+let userOne = {
+    email : "ramgoogle.com",
+    upi : "ramybl.com"
+}
+let userTwo = userOne
+userTwo.email = "randomgoogle.com"
+console.log(userOne.email);            /// its heap here
+console.log(userTwo.email);
